@@ -1,0 +1,34 @@
+/* common style */
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+.link{
+    color: #4d555d;
+}
+.link:hover{
+    color: #f01414;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* hide text */
+.text-hidden{
+    text-indent: -999px;
+    overflow: hidden;
+}
+/* if text is too long, show ... */
+.text-ellipsis{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
