@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    min-width: 1200px;
+}
 body,button,input,select,textarea{
     font: 12px/1 "Microsoft Yahei",Tahoma,Helvetica,Arial,SimSun,sans-serif;
 }
